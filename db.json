@@ -1,0 +1,36 @@
+{
+  "pokemon": [
+    { "id": 1, "name": "Bulbasaur", "type": "Grass", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" },
+    { "id": 4, "name": "Charmander", "type": "Fire", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" },
+    { "id": 7, "name": "Squirtle", "type": "Water", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" },
+    { "id": 10, "name": "Caterpie", "type": "Bug", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png" },
+    { "id": 13, "name": "Weedle", "type": "Bug", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png" },
+    { "id": 16, "name": "Pidgey", "type": "Normal", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png" },
+    { "id": 19, "name": "Rattata", "type": "Normal", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png" },
+    { "id": 21, "name": "Spearow", "type": "Normal", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png" },
+    { "id": 23, "name": "Ekans", "type": "Poison", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png" },
+    { "id": 25, "name": "Pikachu", "type": "Electric", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" },
+    { "id": 27, "name": "Sandshrew", "type": "Ground", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png" },
+    { "id": 29, "name": "Nidoran♀", "type": "Poison", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png" },
+    { "id": 32, "name": "Nidoran♂", "type": "Poison", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png" },
+    { "id": 35, "name": "Clefairy", "type": "Fairy", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png" },
+    { "id": 37, "name": "Vulpix", "type": "Fire", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png" },
+    { "id": 39, "name": "Jigglypuff", "type": "Normal", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png" },
+    { "id": 41, "name": "Zubat", "type": "Poison", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png" },
+    { "id": 43, "name": "Oddish", "type": "Grass", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png" },
+    { "id": 46, "name": "Paras", "type": "Bug", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png" },
+    { "id": 48, "name": "Venonat", "type": "Bug", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png" }
+  ],
+  "plants": [
+    { "id": 1, "name": "Monstera", "type": "Tropical", "image": "https://picsum.photos/201" },
+    { "id": 2, "name": "Fiddle Leaf Fig", "type": "Tropical", "image": "https://picsum.photos/202" },
+    { "id": 3, "name": "Snake Plant", "type": "Desert", "image": "https://picsum.photos/203" },
+    { "id": 4, "name": "Peace Lily", "type": "Tropical", "image": "https://picsum.photos/204" },
+    { "id": 5, "name": "Pothos", "type": "Tropical", "image": "https://picsum.photos/205" },
+    { "id": 6, "name": "Spider Plant", "type": "Tropical", "image": "https://picsum.photos/206" },
+    { "id": 7, "name": "Aloe Vera", "type": "Desert", "image": "https://picsum.photos/207" },
+    { "id": 8, "name": "ZZ Plant", "type": "Desert", "image": "https://picsum.photos/208" },
+    { "id": 9, "name": "Rubber Tree", "type": "Tropical", "image": "https://picsum.photos/209" },
+    { "id": 10, "name": "Bird of Paradise", "type": "Tropical", "image": "https://picsum.photos/210" }
+  ]
+}

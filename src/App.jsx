@@ -4,9 +4,9 @@ import { Bars3Icon, CheckIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import Logo from './components/Logo';
 
 const navigation = [
-  { name: 'Pokemons', href: '#' },
-  { name: 'Plants', href: '#' },
-  { name: 'People', href: '#' }
+  { name: 'Pokemon', href: '#' },
+  { name: 'Plantas', href: '#' },
+  { name: 'Personas', href: '#' }
 ];
 
 const App = () => {
@@ -81,14 +81,15 @@ const App = () => {
                 <CheckIcon className='h-5 w-5 text-green-500' aria-hidden='true' />
                 <span>React 18</span>
               </li>
-              <li className='flex items-center justify-center gap-2'>
-                <CheckIcon className='h-5 w-5 text-green-500' aria-hidden='true' />
-                <span>React Router</span>
-              </li>
 
               <li className='flex items-center justify-center gap-2'>
                 <CheckIcon className='h-5 w-5 text-green-500' aria-hidden='true' />
                 <span>Tailwind CSS</span>
+              </li>
+
+              <li className='flex items-center justify-center gap-2'>
+                <CheckIcon className='h-5 w-5 text-green-500' aria-hidden='true' />
+                <span>React Router</span>
               </li>
             </ul>
           </div>
