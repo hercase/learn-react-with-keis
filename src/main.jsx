@@ -7,6 +7,7 @@ import './index.css';
 // Pages
 import Home from './pages/Home.jsx';
 import Pokemon from './pages/Pokemon.jsx';
+import Plants from './pages/Plants.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
     children: [
       { path: '/', element: <Home /> },
       { path: '/pokemon', element: <Pokemon /> },
-      { path: '/plantas', element: <p>Plantas</p> },
+      { path: '/plantas', element: <Plants /> },
       { path: '/personas', element: <p>Personas</p> },
       { path: '*', element: <p>404</p> }
     ]
