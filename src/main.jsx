@@ -8,6 +8,7 @@ import './index.css';
 import Home from './pages/Home.jsx';
 import Pokemon from './pages/Pokemon.jsx';
 import Plants from './pages/Plants.jsx';
+import People from './pages/People.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
       { path: '/', element: <Home /> },
       { path: '/pokemon', element: <Pokemon /> },
       { path: '/plantas', element: <Plants /> },
-      { path: '/personas', element: <p>Personas</p> },
+      { path: '/personas', element: <People /> },
       { path: '*', element: <p>404</p> }
     ]
   }
