@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
-import { Bars3Icon, CheckIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Logo from './components/Logo';
+import { Link, Outlet } from 'react-router-dom';
 
 const navigation = [
-  { name: 'Pokemon', href: '#' },
-  { name: 'Plantas', href: '#' },
-  { name: 'Personas', href: '#' }
+  { name: 'Pokemon', href: '/pokemon' },
+  { name: 'Plantas', href: '/plantas' },
+  { name: 'Personas', href: '/personas' }
 ];
 
 const App = () => {
@@ -17,10 +18,10 @@ const App = () => {
       <header className=''>
         <nav className='flex items-center justify-between p-6 lg:px-8' aria-label='Global'>
           <div className='flex lg:flex-1'>
-            <a href='#' className='-m-1.5 p-1.5'>
+            <Link to='/' className='-m-1.5 p-1.5'>
               <span className='sr-only'>Keis</span>
               <Logo />
-            </a>
+            </Link>
           </div>
           <div className='flex lg:hidden'>
             <button
@@ -34,9 +35,9 @@ const App = () => {
           </div>
           <div className='hidden lg:flex lg:gap-x-12'>
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className='text-sm font-semibold leading-6 text-gray-900'>
+              <Link key={item.name} to={item.href} className='text-sm font-semibold leading-6 text-gray-900'>
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
         </nav>
@@ -57,13 +58,13 @@ const App = () => {
               <div className='-my-6 divide-y divide-gray-500/10'>
                 <div className='space-y-2 py-6'>
                   {navigation.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -72,29 +73,9 @@ const App = () => {
         </Dialog>
       </header>
 
-      <div className='relative isolate px-6 pt-14 lg:px-8'>
-        <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
-          <div className='text-center'>
-            <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>React con Keis</h1>
-            <ul className='mt-6 text-lg leading-8 text-gray-600'>
-              <li className='flex items-center justify-center gap-2'>
-                <CheckIcon className='h-5 w-5 text-green-500' aria-hidden='true' />
-                <span>React 18</span>
-              </li>
-
-              <li className='flex items-center justify-center gap-2'>
-                <CheckIcon className='h-5 w-5 text-green-500' aria-hidden='true' />
-                <span>Tailwind CSS</span>
-              </li>
-
-              <li className='flex items-center justify-center gap-2'>
-                <CheckIcon className='h-5 w-5 text-green-500' aria-hidden='true' />
-                <span>React Router</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <main className='relative isolate px-6 pt-14 lg:px-8'>
+        <Outlet />
+      </main>
     </div>
   );
 };
